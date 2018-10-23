@@ -10,56 +10,67 @@
 
 	<body>
 		<!-- Header / Navbar -->
-		<nav class="navbar navbar-light bg-light">
-		  	<div>🌎Free Worldwide Shipping On Most Prodcuts!🌏</div> 
-		  	<form class="form-inline">
-		    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
-		    </button>
-		  </form>
-		</nav>
+		<div class="mainnav">
+			<nav class="navbar">
+			  	<div style="color: white">🌎Free Worldwide Shipping On Most Prodcuts!🌏</div> 
+			  	<form class="form-inline">
+				    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			  	</form>
+			</nav>
+		</div>
 
 		<!-- Logo -->
 		<div class="container">
-				<img class="mainlogo" src="logo.png">
+			<img class="mainlogo" src="logo.png">
 		</div>
 
 		<!-- nav -->
-		<ul class="nav justify-content-center">
-		  <li class="nav-item">
-		    <a class="nav-link active" href="#">HOME</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="#">ABOUT US</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="#">CATALOG</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="#">CONTACT US</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="#">FAQ</a>
-		  </li>
-		</ul>
+		<div class="navtoolbar">
+			<dir class="line">
+				<ul class="nav justify-content-center">
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">HOME</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">ABOUT US</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">CATALOG</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">CONTACT US</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">FAQ</a>
+				  </li>
+				</ul>
+			</dir>
+		</div>
 
 		<!-- Subscribe -->
 		<div class="container">
-		  <div class="row">
-		    <div class="col">
-		      <h2>Recieve Special Offer</h2>
-		      <p>Get Info About Special Promotions And Free Gifts</p>
-		    </div>
-		    <div class="col">
-		      <form>
-		      	  <div class="form-group">
-				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-				    <label for="exampleInputEmail1">Subscribe</label>
-				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-				  </div>
-		      </form>
-		    </div>
-		  </div>
+
+			<div class="row">
+				<div class="leftemail">
+					<div class="col">
+						<h2>Recieve Special Offer</h2>
+						<p>Get Info About Special Promotions And Free Gifts</p>
+					</div>
+				</div>
+		
+				<div class="rightemail">
+					<div class="col">
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<input class="btn btn-warning" type="submit" value="Subscribe" >
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- Products -->
