@@ -1,22 +1,27 @@
 .mainnav{
 	background-color: #0d3659;
+    font-family: 'Copse', serif;
 }
 
 .line{
-	border-top: 0.1px solid black;
-	border-bottom: 0.1px solid black;
+	border-top: 0.4px solid black;
+	border-bottom: 0.4px solid black;
 }
 
 .navtoolbar .nav-link{
 	color:black;
+    font-family: 'Copse', serif;
 }
 
 .leftemail{
 	background-color: #F0F0F0;
 	width: 50%;
+    font-family: 'Merriweather', serif;
 }
 
 .rightemail{
+    font-family: 'Copse', serif;
+
 	background-color: #E6E6E6;
 	width: 50%;
 
@@ -25,12 +30,21 @@
     margin-right: auto;	
 }
 
+.products{
+    font-family: 'Merriweather', serif;
+}
+
 .producttitle{
 	text-align: center;
 }
 
 .footer{
+    font-family: 'PT Sans', sans-serif;
 	text-align: left;
+}
+
+#footer{
+	background-color: #F0F0F0;
 }
 
 /*div p{
