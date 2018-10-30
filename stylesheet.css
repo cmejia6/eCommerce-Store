@@ -5,8 +5,8 @@
 }
 
 .navCart{
-	width: 1.4em;
-	margin: 1em;
+	width: 1.2em;
+	padding-bottom: 10%;
 }
 
 .line{
@@ -26,7 +26,7 @@
 }
 
 .rightemail{
-    font-family: 'Copse', serif;
+	font-family: 'Copse', serif;
 
 	background-color: #E6E6E6;
 	width: 50%;
@@ -38,6 +38,10 @@
 
 .products{
     font-family: 'Merriweather', serif;
+}
+
+.products img {
+	width: 23em;
 }
 
 .producttitle{
