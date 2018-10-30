@@ -1,10 +1,16 @@
 .mainnav{
 	background-color: #0d3659;
-    font-family: 'Copse', serif;
+	color: white;	
+	font-family: 'Copse', serif;
+}
+
+.navCart{
+	width: 1.4em;
+	margin: 1em;
 }
 
 .line{
-	border-top: 0.4px solid black;
+	border-top: 0.4px solid black; 
 	border-bottom: 0.4px solid black;
 }
 
