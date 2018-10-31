@@ -37,11 +37,15 @@
 }
 
 .products{
-    font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif;
 }
 
 .products img {
-	width: 23em;
+	width: 100%;
+}
+
+.products p{
+	margin: 0.6em;
 }
 
 .producttitle{
@@ -51,6 +55,10 @@
 .footer{
     font-family: 'PT Sans', sans-serif;
 	text-align: left;
+}
+
+.footer .h4{
+	font-weight: bolder;
 }
 
 #footer{
